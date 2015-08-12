@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ci-test": "istanbul cover _mocha -- -R tap > test.tap && istanbul report clover",
+    "ci-test": "istanbul cover _mocha -- -R tap > test.tap && istanbul report cobertura",
     "ci-lint": "eslint -f checkstyle index.js > checkstyle-result.xml"
   },
   "author": "MiamiCoder.com",
